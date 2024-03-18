@@ -1,5 +1,5 @@
 'use client'
-import signUp from "@/firebase/auth/signup";
+import { signUp, signUpWithGoogle}  from "@/firebase/auth/signup";
 import { useRouter } from 'next/navigation';
 import { useState } from "react";
 
@@ -12,8 +12,9 @@ function Page(): JSX.Element {
   const handleForm = async ( event: { preventDefault: () => void } ) => {
     event.preventDefault();
 
+    const { result, error } = await signUpWithGoogle();
     // Attempt to sign up with provided email and password
-    const { result, error } = await signUp( email, password );
+    // const { result, error } = await signUp( email, password );
 
     if ( error ) {
       // Display and log any sign-up errors
