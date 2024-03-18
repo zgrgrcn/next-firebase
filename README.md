@@ -23,7 +23,7 @@ Before getting started, ensure you have the following prerequisites:
 ## Getting Started
 
 - To start a new project using this template click `Use this template` button.
-- Navigate into the project directory: `cd nextjs-13-firebase-starter`
+- Navigate into the project directory: `cd next-firebase`
 - Install the dependencies:
 
 ```bash
@@ -114,22 +114,6 @@ The folder structure of this project is organized as follows:
 - `firebase`: Houses the Firebase configuration and Firebase-related functions.
 
 Feel free to modify and expand the folder structure according to your project requirements.
-
-## Deployment
-
-To deploy your Next.js application with Firebase, follow the Firebase deployment instructions specific to your hosting option (Firebase Hosting, Cloud Functions, etc.). Make sure to set up the appropriate environment variables for your production environment.
-
-## Contributing
-
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-## Acknowledgements
-
-This project was created using the Next.js framework and Firebase platform.
 
 Resources
 
